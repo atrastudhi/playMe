@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>playMe</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kirang+Haerang" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
+    <link rel='icon' type='image/png' src='gif/icon.png'>
+</head>
+
+<body>
+    <center>
+        <h1>Welcome to playMe</h1>
+        
+                <div id='knightGif' style='display:block'><img src='gif/knight.gif'></div>
+                <div id='wizardGif' style='display:none'><img src='gif/wizard.gif'></div>
+                <div id='archerGif' style='display:none'><img src='gif/archer.gif'></div>
+                <br>
+
+        <form>
+            <label>Select your heroes!</label><br>
+            <select name='selectHeroes'>
+                <option value='Knight'>Knight</option>
+                <option value='Wizard'>Wizard</option>
+                <option value='Archer'>Archer</option>
+            </select>
+            <br><button onclick='show()'>Check Status</button>
+        </form>
+
+    </center>
+
+    <script src='play.js'></script>
+</body>
+
+</html>
