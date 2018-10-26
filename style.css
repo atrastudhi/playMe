@@ -12,8 +12,8 @@ select {
 }
 
 img {
-    height: 25%;
-    width: 25%;
+    height: 30%;
+    width: 30%;
 }
 
 button {
@@ -39,4 +39,19 @@ button {
 h1 {
     font-family: 'Kirang Haerang';
     font-size: 50px;
+    margin: 1%;
+}
+
+/* #flex {
+    display: flow-root;
+} */
+
+table {
+    font-family: 'Kirang Haerang';
+    padding-left: 37%;
+    font-size: 20px;
+}
+
+.plus {
+    padding: 10px 20px;
 }

@@ -12,12 +12,32 @@
 
 <body>
     <center>
+
         <h1>Welcome to playMe</h1>
+        <div id='flex'>
+            <table id='table' style='display:none'>
+    
+                <tr>
+                    <td>POINT:</td>
+                    <td id='totalPoint'>15</td>
+                    <td>/</td>
+                    <td>STR</td>
+                    <td><button id='plusStr' class='plus' type='button' onclick="statPlus('str')">0</button></td>
+    
+                    <td>AGI</td>
+                    <td><button id='plusAgi' class='plus' type='button' onclick="statPlus('agi')">0</button></td>
+    
+                    <td>INT</td>
+                    <td><button id='plusInt' class='plus' type='button' onclick="statPlus('int')">0</button></td>
+                </tr>
+            </table>
+
+        <div id='knightGif' style='display:none'><img src='gif/knight.gif'></div>
+        <div id='wizardGif' style='display:none'><img src='gif/wizard.gif'></div>
+        <div id='archerGif' style='display:none'><img src='gif/archer.gif'></div>
+        <br>
         
-                <div id='knightGif' style='display:none'><img src='gif/knight.gif'></div>
-                <div id='wizardGif' style='display:none'><img src='gif/wizard.gif'></div>
-                <div id='archerGif' style='display:none'><img src='gif/archer.gif'></div>
-                <br>
+        </div>
 
         <form>
             <label id='header' display='block'>Select your heroes!</label><br>
